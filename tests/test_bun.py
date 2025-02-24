@@ -1,6 +1,7 @@
 import pytest
 from bun import Bun
 
+
 class TestBun:
     @pytest.mark.parametrize('name, price', [('Кунжутная', 20), ('Сырная', 665)])
     def test_creation_bun(self, name, price):
